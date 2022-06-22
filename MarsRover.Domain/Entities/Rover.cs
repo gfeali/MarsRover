@@ -18,6 +18,8 @@ namespace MarsRover.Domain.Entities
             Id = Guid.NewGuid();
             X = x;
             Y = y;
+            
+            
             Direction = direction;
         }
 
